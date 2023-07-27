@@ -12,3 +12,9 @@ Plans for this tool:
 Fix any bugs
 Provide complete base data jsons
 Allow specifying wanted data
+
+	
+Current Issues:
+
+Absurdly long run time: 	                                                                                            
+             Takes almost a week to run through all data from scratch. This is due to steam's absolutly massive game library and their limit on API calls. Unsure if fixable
