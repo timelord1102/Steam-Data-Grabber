@@ -1,0 +1,943 @@
+{
+    "1941401": {
+        "fail_reason": "No game found"
+    },
+    "1897482": {
+        "fail_reason": "No game found"
+    },
+    "2112761": {
+        "fail_reason": "No game found"
+    },
+    "2016512": {
+        "fail_reason": "No game found"
+    },
+    "1820332": {
+        "fail_reason": "No game found"
+    },
+    "1360782": {
+        "fail_reason": "No game found"
+    },
+    "662172": {
+        "fail_reason": "No game found"
+    },
+    "216938": {
+        "fail_reason": "No game found"
+    },
+    "660010": {
+        "fail_reason": "No game found"
+    },
+    "660130": {
+        "fail_reason": "No game found"
+    },
+    "1118314": {
+        "fail_reason": "No game found"
+    },
+    "1275822": {
+        "fail_reason": "No game found"
+    },
+    "1343832": {
+        "fail_reason": "No game found"
+    },
+    "1828741": {
+        "fail_reason": "No game found"
+    },
+    "1927051": {
+        "fail_reason": "No game found"
+    },
+    "1496152": {
+        "fail_reason": "No game found"
+    },
+    "1983382": {
+        "fail_reason": "No game found"
+    },
+    "1808781": {
+        "fail_reason": "No game found"
+    },
+    "1977312": {
+        "fail_reason": "No game found"
+    },
+    "1700632": {
+        "fail_reason": "No game found"
+    },
+    "1829051": {
+        "fail_reason": "No game found"
+    },
+    "1567401": {
+        "fail_reason": "No game found"
+    },
+    "2092072": {
+        "fail_reason": "No game found"
+    },
+    "2119422": {
+        "fail_reason": "No game found"
+    },
+    "596501": {
+        "fail_reason": "No game found"
+    },
+    "2156011": {
+        "fail_reason": "No game found"
+    },
+    "2177061": {
+        "fail_reason": "No game found"
+    },
+    "2170321": {
+        "fail_reason": "No game found"
+    },
+    "1825161": {
+        "fail_reason": "No game found"
+    },
+    "1383152": {
+        "fail_reason": "No game found"
+    },
+    "1496243": {
+        "fail_reason": "No game found"
+    },
+    "2121741": {
+        "fail_reason": "No game found"
+    },
+    "1375021": {
+        "fail_reason": "No game found"
+    },
+    "2292161": {
+        "fail_reason": "No game found"
+    },
+    "1312081": {
+        "fail_reason": "No game found"
+    },
+    "1647140": {
+        "fail_reason": "No game found"
+    },
+    "1647170": {
+        "fail_reason": "demo"
+    },
+    "1647180": {
+        "fail_reason": "music"
+    },
+    "1647160": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Pixel Graphics",
+            "Side Scroller",
+            "2D Platformer",
+            "Puzzle Platformer",
+            "Platformer",
+            "2D",
+            "Precision Platformer",
+            "Puzzle",
+            "Dragons",
+            "Free to Play",
+            "Fantasy",
+            "Funny",
+            "Medieval",
+            "Sexual Content",
+            "Swordplay",
+            "Linear",
+            "Singleplayer",
+            "Indie",
+            "Action",
+            "Physics"
+        ],
+        "is_free": true,
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            0,
+            "No user reviews"
+        ]
+    },
+    "1647200": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Casual",
+            "Action",
+            "Rhythm",
+            "VR",
+            "Arcade",
+            "Sci-fi",
+            "6DOF",
+            "Character Customization",
+            "Score Attack",
+            "Singleplayer",
+            "Asynchronous Multiplayer",
+            "Anime"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 2999,
+            "final": 2999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$29.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            22,
+            "Mixed"
+        ]
+    },
+    "1647210": {
+        "fail_reason": "demo"
+    },
+    "1647230": {
+        "fail_reason": "demo"
+    },
+    "1647240": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Adventure",
+            "Action",
+            "RPG",
+            "3D Fighter",
+            "Action-Adventure",
+            "JRPG",
+            "3D Platformer",
+            "3D",
+            "Anime",
+            "First-Person",
+            "Drama",
+            "Horror",
+            "Boxing",
+            "Funny",
+            "Modern",
+            "Memes",
+            "Story Rich",
+            "Sexual Content",
+            "Linear",
+            "Singleplayer"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 399,
+            "final": 399,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$3.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            2,
+            "2 user reviews"
+        ]
+    },
+    "1647250": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Casual",
+            "Simulation",
+            "Comic Book",
+            "Funny",
+            "Comedy",
+            "Parody",
+            "2D",
+            "Cute",
+            "Anime",
+            "Cartoon",
+            "Hand-drawn",
+            "Atmospheric",
+            "Singleplayer",
+            "Multiplayer",
+            "Local Multiplayer",
+            "Local Co-Op",
+            "Indie",
+            "Co-op",
+            "Minigames",
+            "Short"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 499,
+            "final": 499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$4.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            16,
+            "Positive"
+        ]
+    },
+    "1647260": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Atmospheric",
+            "Narration",
+            "Adventure",
+            "Choices Matter",
+            "Singleplayer",
+            "Multiple Endings",
+            "Puzzle",
+            "Story Rich",
+            "Emotional",
+            "Investigation",
+            "Interactive Fiction",
+            "Time Travel",
+            "Exploration",
+            "Drama",
+            "Time Management",
+            "Nostalgia",
+            "1990's",
+            "Retro",
+            "Indie",
+            "Hand-drawn"
+        ],
+        "is_free": false,
+        "price_overview": "No price data (most likely playtest)",
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            0,
+            "No user reviews"
+        ]
+    },
+    "1647280": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Casual",
+            "Adventure",
+            "Action",
+            "Arcade",
+            "Precision Platformer",
+            "2D",
+            "Survival",
+            "Perma Death",
+            "Indie",
+            "Singleplayer"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 399,
+            "final": 399,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$3.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            0,
+            "No user reviews"
+        ]
+    },
+    "1647290": {
+        "fail_reason": "No game found"
+    },
+    "1647300": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Adventure",
+            "Puzzle",
+            "2D",
+            "2D Platformer",
+            "Cute",
+            "Colorful",
+            "Fantasy",
+            "Tactical",
+            "Atmospheric",
+            "Story Rich",
+            "Singleplayer"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 999,
+            "final": 999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$9.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            0,
+            "No user reviews"
+        ]
+    },
+    "1647340": {
+        "fail_reason": "demo"
+    },
+    "1647350": {
+        "fail_reason": "demo"
+    },
+    "1647360": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Physics",
+            "Action",
+            "Dog",
+            "Runner",
+            "2.5D",
+            "Hand-drawn",
+            "Singleplayer",
+            "Casual",
+            "Controller",
+            "Character Customization",
+            "Cute",
+            "2D Platformer",
+            "2D",
+            "Platformer",
+            "Funny",
+            "Emotional",
+            "Fantasy",
+            "Choices Matter",
+            "Indie",
+            "Racing"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 499,
+            "final": 499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$4.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            4,
+            "4 user reviews"
+        ]
+    },
+    "1647370": {
+        "fail_reason": "No game found"
+    },
+    "1647380": {
+        "fail_reason": "demo"
+    },
+    "1647390": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Adventure",
+            "Point & Click",
+            "Interactive Fiction",
+            "Visual Novel",
+            "Puzzle",
+            "Choose Your Own Adventure",
+            "2D",
+            "Clicker",
+            "Casual",
+            "Anime",
+            "Cartoony",
+            "Cinematic",
+            "Colorful",
+            "Comic Book",
+            "Hand-drawn",
+            "Cartoon",
+            "1980s",
+            "Sci-fi",
+            "Singleplayer",
+            "Science"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 999,
+            "final": 999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$9.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            44,
+            "Positive"
+        ]
+    },
+    "1647400": {
+        "fail_reason": "No game found"
+    },
+    "1647420": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Tower Defense",
+            "FPS",
+            "Score Attack",
+            "Gore",
+            "Strategy",
+            "Action",
+            "Singleplayer",
+            "PvE",
+            "Shooter",
+            "Dark Humor",
+            "Base Building",
+            "Zombies",
+            "Funny",
+            "3D",
+            "Stylized",
+            "First-Person",
+            "Controller",
+            "Gun Customization",
+            "Replay Value",
+            "Survival"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1299,
+            "final": 844,
+            "discount_percent": 35,
+            "initial_formatted": "$12.99",
+            "final_formatted": "$8.44"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            76,
+            "Very Positive"
+        ]
+    },
+    "1647430": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Action",
+            "Adventure",
+            "Action-Adventure",
+            "Arcade",
+            "Puzzle",
+            "Exploration",
+            "2D",
+            "Anime",
+            "1990's",
+            "America",
+            "Atmospheric",
+            "Building",
+            "Crime",
+            "Dark",
+            "Dark Fantasy",
+            "Drama",
+            "Mystery",
+            "Psychological Horror",
+            "Surreal",
+            "Survival Horror"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 99,
+            "final": 99,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$0.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            0,
+            "No user reviews"
+        ]
+    },
+    "1647440": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Tower Defense",
+            "Strategy",
+            "Idler",
+            "Free to Play",
+            "Zombies",
+            "Auto Battler",
+            "Resource Management",
+            "Time Management",
+            "Post-apocalyptic",
+            "Fantasy",
+            "Sci-fi",
+            "Pixel Graphics",
+            "Isometric",
+            "Casual",
+            "Top-Down",
+            "Clicker",
+            "Superhero",
+            "Automation",
+            "Futuristic",
+            "Combat"
+        ],
+        "is_free": true,
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            0,
+            "No user reviews"
+        ]
+    },
+    "1647450": {
+        "fail_reason": "dlc"
+    },
+    "1647470": {
+        "fail_reason": "dlc"
+    },
+    "1647490": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Casual",
+            "Singleplayer",
+            "Puzzle",
+            "Adventure",
+            "Indie"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 499,
+            "final": 499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$4.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            0,
+            "No user reviews"
+        ]
+    },
+    "1647560": {
+        "fail_reason": "No game found"
+    },
+    "1647570": {
+        "fail_reason": "No game found"
+    },
+    "1647580": {
+        "fail_reason": "demo"
+    },
+    "1647620": {
+        "fail_reason": "dlc"
+    },
+    "1646650": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Adventure",
+            "VR",
+            "Casual",
+            "Simulation",
+            "Walking Simulator",
+            "Fantasy",
+            "Indie",
+            "Exploration",
+            "Medieval",
+            "Immersive Sim",
+            "Singleplayer",
+            "3D"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 499,
+            "final": 499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$4.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            5,
+            "5 user reviews"
+        ]
+    },
+    "1646660": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Strategy",
+            "Turn-Based Tactics",
+            "PvP",
+            "Turn-Based Strategy",
+            "3D",
+            "Third Person",
+            "Relaxing",
+            "Minimalist",
+            "Logic",
+            "Casual",
+            "Tactical",
+            "Local Multiplayer",
+            "Multiplayer"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 199,
+            "final": 199,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$1.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            0,
+            "No user reviews"
+        ]
+    },
+    "1646710": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Strategy",
+            "Casual",
+            "Resource Management",
+            "Card Game",
+            "Solitaire",
+            "2D",
+            "Demons",
+            "Pixel Graphics",
+            "Management",
+            "Dark Fantasy",
+            "Choices Matter",
+            "Singleplayer",
+            "Dark"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 99,
+            "final": 99,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$0.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            5,
+            "5 user reviews"
+        ]
+    },
+    "1646740": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Action",
+            "Platformer",
+            "2D Platformer",
+            "2D",
+            "Retro",
+            "Controller",
+            "Singleplayer",
+            "Indie",
+            "Casual"
+        ],
+        "is_free": false,
+        "price_overview": "No price data (most likely playtest)",
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            0,
+            "No user reviews"
+        ]
+    },
+    "1646750": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Casual",
+            "Sandbox",
+            "Hack and Slash",
+            "3D",
+            "First-Person",
+            "Atmospheric",
+            "Dystopian",
+            "Nonlinear",
+            "Open World",
+            "Indie",
+            "Singleplayer",
+            "Building",
+            "Survival"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1099,
+            "final": 1099,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$10.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            3,
+            "3 user reviews"
+        ]
+    },
+    "1646770": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Platformer",
+            "Action",
+            "Side Scroller",
+            "2D",
+            "Pixel Graphics",
+            "Adventure",
+            "Difficult",
+            "2D Platformer",
+            "Puzzle Platformer",
+            "Fantasy",
+            "Atmospheric",
+            "PvE",
+            "Singleplayer",
+            "Precision Platformer",
+            "Exploration"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 399,
+            "final": 399,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$3.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            1,
+            "1 user reviews"
+        ]
+    },
+    "1646790": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Early Access",
+            "Action RPG",
+            "Hack and Slash",
+            "Action Roguelike",
+            "Roguelite",
+            "RPG",
+            "Dungeon Crawler",
+            "Perma Death",
+            "Roguelike",
+            "Action-Adventure",
+            "Procedural Generation",
+            "Isometric",
+            "Loot",
+            "Fantasy",
+            "Action",
+            "Casual",
+            "Hand-drawn",
+            "Adventure",
+            "Indie",
+            "Singleplayer"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 999,
+            "final": 999,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$9.99"
+        },
+        "dlc": [
+            1829720
+        ],
+        "reviews": [
+            26,
+            "Mostly Positive"
+        ]
+    },
+    "1646810": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "VR",
+            "Adventure",
+            "Story Rich",
+            "Sci-fi",
+            "Dynamic Narration",
+            "Funny",
+            "Platformer",
+            "Singleplayer",
+            "Action",
+            "Exploration",
+            "Aliens",
+            "Colorful",
+            "Parkour",
+            "First-Person",
+            "Interactive Fiction",
+            "Hidden Object",
+            "Combat",
+            "PvE",
+            "Casual",
+            "Indie"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 1199,
+            "final": 1199,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$11.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            3,
+            "3 user reviews"
+        ]
+    },
+    "1646820": {
+        "fail_reason": "Bad review data",
+        "tags": [
+            "Hack and Slash",
+            "Shoot 'Em Up",
+            "Top-Down Shooter",
+            "Twin Stick Shooter",
+            "PvE",
+            "Shooter",
+            "Action-Adventure",
+            "3D",
+            "Isometric",
+            "Cyberpunk",
+            "Horror",
+            "Post-apocalyptic",
+            "Controller",
+            "Team-Based",
+            "Linear",
+            "Cartoony",
+            "Pixel Graphics",
+            "Stylized",
+            "Demons",
+            "Sci-fi"
+        ],
+        "is_free": false,
+        "price_overview": {
+            "currency": "USD",
+            "initial": 499,
+            "final": 499,
+            "discount_percent": 0,
+            "initial_formatted": "",
+            "final_formatted": "$4.99"
+        },
+        "dlc": [
+            "None"
+        ],
+        "reviews": [
+            3,
+            "3 user reviews"
+        ]
+    }
+}
