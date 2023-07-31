@@ -4,6 +4,8 @@ import time
 import bs4
 
 
+steamDataPath = "steamdatagrabber\data\jsons\SteamData.json"
+failDataPath = "steamdatagrabber\data\jsons\SteamFailed.json"
 
 def getTags(gameID):
     gameSite = requests.get("https://store.steampowered.com/app/" + str(gameID))
@@ -31,13 +33,13 @@ def checkServer():
 def saveData(failedDict, gamesDict, origGameLen, origFailLen):
     if(len(failedDict) > origFailLen) or (len(gamesDict) > origGameLen):
         print('\033[91m'+"Saving..." + '\033[0m')
-        with open ("steamdatagrabber\data\jsons\SteamData.json", "w") as newJSON:
+        with open (steamDataPath, "w") as newJSON:
             json.dump(gamesDict, newJSON, indent=4, separators=(',', ': '))
-        with open ("steamdatagrabber\data\jsons\SteamFailed.json", "w") as newJSON:
+        with open (failDataPath, "w") as newJSON:
             json.dump(failedDict, newJSON, indent=4, separators=(',', ': '))
-    with open ("steamdatagrabber\data\jsons\SteamData.json") as steamJSON:
+    with open (steamDataPath) as steamJSON:
         gamesDict = json.load(steamJSON)
-    with open ("steamdatagrabber\data\jsons\SteamFailed.json") as failedJSON:
+    with open (failDataPath) as failedJSON:
             failedDict = json.load(failedJSON)
     return failedDict, gamesDict, origGameLen, origFailLen
 
@@ -46,10 +48,6 @@ def addGame(gamesDict, game, gameID, reviewData):
     tags = getTags(gameID)
     gamesDict[gameID] = {}
     gamesDict[gameID]["tags"] = tags
-    try:
-        gamesDict[gameID]["categories"] = game["categories"]
-    except:
-        pass
     gamesDict[gameID]["is_free"]  =(game["is_free"])
     if(game["is_free"] == False):
         gamesDict[gameID]["price_overview"] = (game["price_overview"])
@@ -58,7 +56,6 @@ def addGame(gamesDict, game, gameID, reviewData):
     except:
         gamesDict[gameID]["dlc"] = ["None"]
     gamesDict[gameID]["reviews"] = [reviewData["query_summary"]["total_reviews"], reviewData["query_summary"]["review_score_desc"]]
-    
     
     
     return gamesDict
@@ -76,7 +73,10 @@ def addFailed(failedDict, reviewData, game, gameID, failed):
     else:
         game = game[str(gameID)]["data"]
         tags = getTags(gameID)
-        failedDict[gameID]["fail_reason"] = "Bad review data" 
+        if game["name"].lower().find("playtest") == -1:
+            failedDict[gameID]["fail_reason"] = "playtest"
+        else:
+            failedDict[gameID]["fail_reason"] = "Bad review data" 
         failedDict[gameID]["tags"] = tags
         failedDict[gameID]["is_free"]  =(game["is_free"])
         if(game["is_free"] == False):
@@ -97,22 +97,23 @@ checkServer()
         
 jsonFile = requests.get("http://api.steampowered.com/ISteamApps/GetAppList/v0002/?key=STEAMKEY&format=json").json()
 
+
 try:
-    open("steamdatagrabber\data\jsons\SteamData.json").close()
+    open(steamDataPath).close()
 except:
-    open("steamdatagrabber\data\jsons\SteamData.json", "x").close()
+    open(steamDataPath, "x").close()
     
 try:
-    open("steamdatagrabber\data\jsons\SteamFailed.json", "a")
+    open(failDataPath, "a")
 except:
-    open("steamdatagrabber\data\jsons\SteamFailed.json", "x").close()
+    open(failDataPath, "x").close()
       
-if(len(open("steamdatagrabber\data\jsons\SteamFailed.json").read()) == 0):
-    json.dump({}, open("steamdatagrabber\data\jsons\SteamFailed.json", "w"))
+if(len(open(failDataPath).read()) == 0):
+    json.dump({}, open(failDataPath, "w"))
     time.sleep(0.3)
     
-if(len(open("steamdatagrabber\data\jsons\SteamData.json").read()) == 0):
-    json.dump({}, open("steamdatagrabber\data\jsons\SteamData.json", "w"))
+if(len(open(steamDataPath).read()) == 0):
+    json.dump({}, open(steamDataPath, "w"))
     time.sleep(0.3)
     
 gamesDict = {}
@@ -120,11 +121,11 @@ failedDict = {}
 dlcDict = {}
 comingsoonDict = {}
 
-with open ("steamdatagrabber\data\jsons\SteamData.json") as steamJSON:
+with open (steamDataPath) as steamJSON:
     gamesDict = json.load(steamJSON)
     time.sleep(0.3)
 
-with open ("steamdatagrabber\data\jsons\SteamFailed.json") as failedJSON:
+with open (failDataPath) as failedJSON:
     failedDict = json.load(failedJSON)
     time.sleep(0.3)
 
@@ -161,7 +162,7 @@ for app in jsonFile["applist"]["apps"]:
         
         reviewData = requests.get("https://store.steampowered.com/appreviews/" + str(gameID) + "?json=1").json()
         if(not failed and game[str(gameID)]["success"] == True and game[str(gameID)]["data"]["type"] == ("game")and reviewData["success"] == 1 and 
-           (("positive" in reviewData["query_summary"]["review_score_desc"].lower() and reviewData["query_summary"]["total_reviews"] > 100) or game[str(gameID)]["data"]["release_date"]["coming_soon"] == True)):
+           (("positive" in reviewData["query_summary"]["review_score_desc"].lower() and reviewData["query_summary"]["total_reviews"] > 100) or game[str(gameID)]["data"]["release_date"]["coming_soon"] == True)) and game[gameID]["data"]["name"].lower().find("playtest") == -1:
             print('\033[92m' + str(game[str(gameID)]["success"]) + '\033[0m')
             game = game[str(gameID)]["data"]
             if(game["release_date"]["coming_soon"] == False):
