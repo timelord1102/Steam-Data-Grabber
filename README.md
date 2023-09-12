@@ -5,15 +5,16 @@ All data is saved to a JSON file which can be updated by running the code again,
 
 If any game cannot be properly scraped, it is added to a second file along side the reason for its failiure to be ignored in future runs
 
-Requires:
-python3.8+
-beautifulsoup4
+### Required:
+- python3.8+  
+- beautifulsoup4 : 
+```pip install beautifulsoup4```
 
-Plans for this tool:
-Fix any bugs
-Provide complete base data Json filea
-Allow for specification of desired data
-Implement into potential future project
+### Plans for this tool:  
+- Fix any bugs  
+- Provide complete base data Json files  
+- Allow for specification of desired data  
+- Implement into potential future project  
 
-Current Issues:
-Very long run-time. Can take up to a week for the initial data gathering which seems unavoidable without breaking the Steam API TOS. Potentially fixed by providing pre-scraped data files
+### Current Issues:  
+- Very long run-time. Can take up to a week for the initial data gathering which seems unavoidable without breaking the Steam API TOS. Potentially fixed by providing pre-scraped data files
